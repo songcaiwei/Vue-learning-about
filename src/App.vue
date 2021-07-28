@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">axios</router-link> |
+      <router-link to="/ajax">ajax</router-link> |
+      <router-link to="/fetch">Fetch</router-link> |
+      <router-link to="/about">About</router-link>|
+      <router-link to="/idcheck">身份认证</router-link>|
+      <router-link to="/axios">异步axios</router-link>
     </div>
     <router-view/>
   </div>
